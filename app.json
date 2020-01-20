@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "timer.app",
+    "slug": "timer_app",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon_alternative.png",
+    "splash": {
+      "image": "./assets/images/splash_alternative.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "timer.app"
+    },
+    "android": {
+      "package": "timer.app"
+    }
+  }
+}
